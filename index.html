@@ -8,30 +8,33 @@
         header {
             background-color: red;
         }
-        footer {
+        #footer {
             background: green;
+        }
+        .logomarca {
+            background-color: blue;
         }
     </style>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div>
             <div>
-                <a href="">
+                <a href="" class="logomarca">
                     Logomarca
                 </a>
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <section>
-            <h1>Conteúdo</h1>
+            <h1 class="logomarca">Conteúdo</h1>
+            <p>Um Texto Qualquer</p>
         </section>
     </main>
-    <p>Um Texto Qualquer</p>
     <div>
-        <footer>
-            <p>&copy; Todos os Direitos Reservados</p>
+        <footer id="footer">
+            <p  class="logomarca">&copy; Todos os Direitos Reservados</p>
         </footer>
     </div>
 </body>
