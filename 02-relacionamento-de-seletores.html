@@ -5,43 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /*
-            tag
-            classe
-            id
-
-        #header .logomarca{
-            color: blue;
+        header {
+            background-color: red;
         }
-        .logomarca{
-            color: red;
+        #footer {
+            background: green;
         }
-        */
-
-        #header a {
-            color: green;
+        .logomarca {
+            background-color: blue;
         }
-
-        #header div div a {
-            background-color: fuchsia;
-            color: gray;
-        }
-
-        #header div div a {
-            color: blueviolet;
-        }
-
-        .header a {
-            color: blue;
-        }
-
-        header a {
-            color: red;
+        #footer > .logomarca{
+            color: white;
         }
     </style>
 </head>
 <body>
-    <header class="header" id="header">
+    <header id="header">
         <div>
             <div>
                 <a href="" class="logomarca">
@@ -61,6 +40,7 @@
             <section>
                 <p  class="logomarca">&copy; Todos os Direitos Reservados</p>
             </section>
+            <p  class="logomarca">&copy; Todos os Direitos Reservados</p>
         </footer>
     </div>
 </body>
