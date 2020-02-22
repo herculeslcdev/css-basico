@@ -5,20 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        a {
-            color: blueviolet;
+        /*
+            tag
+            classe
+            id
+
+        #header .logomarca{
+            color: blue;
         }
-        a:hover {
+        .logomarca{
             color: red;
         }
-        a:active {
-            color: greenyellow;
+        */
+
+        #header a {
+            color: green;
         }
-        input:focus {
-            color: goldenrod;
+
+        #header div div a {
+            background-color: fuchsia;
+            color: gray;
         }
-        div:focus-within {
-            background-color: orangered;
+
+        #header div div a {
+            color: blueviolet;
+        }
+
+        .header a {
+            color: blue;
+        }
+
+        header a {
+            color: red;
         }
     </style>
 </head>
@@ -26,11 +44,10 @@
     <header class="header" id="header">
         <div>
             <div>
-                <a class="logomarca">
+                <a href="" class="logomarca">
                     Logomarca
                 </a>
             </div>
-            <input type="text">
         </div>
     </header>
     <main id="content">
