@@ -6,6 +6,12 @@
     padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: all .5s ease;
 }
 
 .btn-red {

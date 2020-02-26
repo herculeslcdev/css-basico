@@ -19,6 +19,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, .7);
     text-decoration: underline;
+    transition: all .5s ease;
 }
 
 nav.horizontal ul li {
