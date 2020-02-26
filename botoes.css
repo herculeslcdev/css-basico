@@ -5,6 +5,7 @@
     color: #7f8c8d;
     padding: 10px 20px;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .btn-red {
