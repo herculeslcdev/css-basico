@@ -4,47 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        a {
-            color: blueviolet;
+        body{
+            padding: 10px;
         }
-        a:hover {
-            color: red;
+
+        .btn{
+            text-decoration: none;
+            background-color: #ecf0f1;
+            color: #7f8c8d;
+            padding: 10px 20px;
+            border-radius: 10px;
         }
-        a:active {
-            color: greenyellow;
+
+        .btn-red {
+            background-color: #e74c3c;
+            color: #ffffff;
         }
-        input:focus {
-            color: goldenrod;
+
+        .btn.btn-red:hover{
+            background-color: #c0392b;
         }
-        div:focus-within {
-            background-color: orangered;
+
+        .btn.btn-blue {
+            background-color: #3498db;
+            color: #ffffff;
+        }
+
+        .btn-blue:hover{
+            background-color: #2980b9;
+        }
+
+        .btn.btn-green {
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+
+        .btn-green:hover{
+            background-color: #16a085;
         }
     </style>
 </head>
 <body>
-    <header class="header" id="header">
-        <div>
-            <div>
-                <a class="logomarca">
-                    Logomarca
-                </a>
-            </div>
-            <input type="text">
-        </div>
-    </header>
-    <main id="content">
-        <section>
-            <h1 class="logomarca">Conteúdo</h1>
-            <p>Um Texto Qualquer</p>
-        </section>
-    </main>
-    <div>
-        <footer id="footer">
-            <section>
-                <p  class="logomarca">&copy; Todos os Direitos Reservados</p>
-            </section>
-        </footer>
-    </div>
+    <a href="" class="btn btn-red">Item 1</a>
+    <a href="" class="btn btn-blue">Item 2</a>
+    <a href="" class="btn btn-green">Item 3</a>
+    <a href="" class="btn">Item 4</a>
 </body>
 </html>
